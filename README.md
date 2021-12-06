@@ -7,7 +7,7 @@
 	* [Redux Devtools](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=es)
 	* [Visual Studio Code](https://code.visualstudio.com/)
 	* [Postman](https://www.postman.com/downloads/)
-	* [Mongo](Compass: https://www.mongodb.com/try/download/compass)
+	* [Mongo Compass](https://www.mongodb.com/try/download/compass)
 	* [Git](https://git-scm.com/)
 	* [Node](https://nodejs.org/es/)
 
