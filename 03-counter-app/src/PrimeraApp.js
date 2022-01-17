@@ -9,15 +9,19 @@
 */
 import React from 'react';
 // import React,{ Fragment } from 'react';
-
-const PrimeraApp = () =>{
+// a traves de props (properties) puedo comunicarme entre componentes.
+// pero en lugar de recibir props y despues hacer props.saludo
+// lo que se usa es hacer la desestructuracion de props para obtener directamente
+// a saludo: {saludo} y tambien le podemos dar un valor por default en caso que no 
+// llegue esa variable cargada y se necesite para el proceso: {saludo = 'hola mundo'}
+const PrimeraApp = ({saludo = 'hola mundo'}) =>{
     //podria usar <Fragment> </Fragment> si lo importo. 
     //pero mejor es usar <></> que es lo mismo y  no hace falta importar nada.
     // const saludo = {
     //     nombre: 'Jero',
     //     edad: '31'
     // };
-    const saludo = 'Hola Mundo'
+    
     return (
             <>
                 <h1>{saludo}</h1>

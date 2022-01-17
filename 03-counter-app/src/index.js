@@ -5,7 +5,7 @@ import './index.css'
 
 const divRoot = document.querySelector('#root');
 
-ReactDOM.render(<PrimeraApp />, divRoot);
+ReactDOM.render(<PrimeraApp saludo="Hola, Soy Goku"/>, divRoot);
 /*
 ReactDOM nos permite crear nuestro arbol de componentes, 
 eso a su ves nos permite comunicarnos entre componentes.
