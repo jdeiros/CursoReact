@@ -11,7 +11,5 @@ describe('Pruebas en el archivo demo.test.js', () => {
 
         // 3. Observar el comportamiento.
         expect( mensaje ).toBe( mensaje2 );
-
-
     });
 });
