@@ -44,6 +44,7 @@ describe('Pruebas en el <CounterApp />', () =>{
     test('debe colocar el valor por defecto', () => {
       
         const wrapper = shallow( <CounterApp value= {100}/> ); 
+        
     });
     
 });
