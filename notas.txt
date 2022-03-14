@@ -1,0 +1,11 @@
+Seccion 5: GifExpertApp - Aplicación.
+--------------------------------------
+
+La aplicacion se va a encargar de traer imagenes o gift el API de Giphy. 
+(ejemplo en whatsapp cuando busco goku me aparecen todos gif animados de goku)
+
+1 - Leer cajas de texto (inputs)
+2 - Realizar peticiones Http -> En un componente que renderiza las imagenes.
+3 - Custom hooks, otros hooks
+4 - Efectos...
+
