@@ -12,3 +12,5 @@ La aplicacion se va a encargar de traer imagenes o gift el API de Giphy.
 https://developers.giphy.com/docs/api/endpoint/#search
 https://es.reactjs.org/docs/faq-structure.html
 https://hackernoon.com/structuring-projects-and-naming-components-in-react-1261b6e18d76
+
+si no funciona: npm start -> puede ser que no este instalado -> npm install
