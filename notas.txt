@@ -9,3 +9,6 @@ La aplicacion se va a encargar de traer imagenes o gift el API de Giphy.
 3 - Custom hooks, otros hooks
 4 - Efectos...
 
+https://developers.giphy.com/docs/api/endpoint/#search
+https://es.reactjs.org/docs/faq-structure.html
+https://hackernoon.com/structuring-projects-and-naming-components-in-react-1261b6e18d76
