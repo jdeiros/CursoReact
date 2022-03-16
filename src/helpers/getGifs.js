@@ -1,11 +1,13 @@
 
-export const getGifs = async (category) => {
 
-    const url = `https://api.giphy.com/v1/gifs/search?q=${encodeURI(category)}&limit=10&api_key=UqpQ94dC75D5jIlZtK911Pi7hvvQeeri`;
-    const resp = await fetch(url);
+
+export const getGifs = async( category ) => {
+
+    const url = `https://api.giphy.com/v1/gifs/search?q=${ encodeURI( category ) }&limit=10&api_key=A8xMXqzieIHmtO3BjGLAtf1daSSDAv8K`;
+    const resp = await fetch( url );
     const { data } = await resp.json();
 
-    const gifs = data.map(img => {
+    const gifs = data.map( img => {
         return {
             id: img.id,
             title: img.title,
@@ -14,5 +16,6 @@ export const getGifs = async (category) => {
     })
 
     return gifs;
+
 
 }
