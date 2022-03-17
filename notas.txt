@@ -42,3 +42,9 @@ para el despliegue:
 - push con los cambios (sube todo lo que hay en docs)
 - vamos a github -> dentro del proyecto -> setings -> pages -> github pages -> 
     none-> master branch /docs folder (Use only the /docs folder for Github Pages).
+------------------------------------------------------------------------------------
+
+Seccion 9: Profundizando Hooks - Generales.
+105. Inicio de proyecto - Hooks
+vamos a usar bootstrap (no mucho, solo para darle un poco de onda).
+https://getbootstrap.com/
